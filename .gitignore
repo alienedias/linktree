@@ -1,0 +1,36 @@
+# Arquivos e pastas específicos do sistema
+.vscode/
+.idea/
+*.iml
+
+# Dependências de gerenciamento de pacotes (Exemplos para Node.js e Python)
+node_modules/
+npm-debug.log
+yarn-error.log
+pip-log.txt
+*.egg-info/
+*.dist-info/
+venv/
+env/
+
+# Arquivos de build
+build/
+dist/
+*.egg/
+*.egg-info/
+*.dist-info/
+*.build/
+*.out/
+
+# Arquivos temporários ou de backup
+*.log
+*.tmp
+*.swp
+
+# Arquivos de credenciais ou sensíveis
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production

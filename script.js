@@ -21,17 +21,17 @@ function toggleMode() {
   //substituir a imagem do perfil e os icones de redes sociais
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "../assets/images/avatar-lia-light.png")
-    github.setAttribute("src", "../assets/icons/logo-github-light.svg")
-    facebook.setAttribute("src", "../assets/icons/logo-facebook-light.svg")
-    instagram.setAttribute("src", "../assets/icons/logo-instagram-light.svg")
-    linkedin.setAttribute("src", "../assets/icons/logo-linkedin-light.svg")
+    img.setAttribute("src", "./assets/images/avatar-lia-light.png")
+    github.setAttribute("src", "./assets/icons/logo-github-light.svg")
+    facebook.setAttribute("src", "./assets/icons/logo-facebook-light.svg")
+    instagram.setAttribute("src", "./assets/icons/logo-instagram-light.svg")
+    linkedin.setAttribute("src", "./assets/icons/logo-linkedin-light.svg")
   } else {
     //se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "../assets/images/avatar-lia.png")
-    github.setAttribute("src", "../assets/icons/logo-github.svg")
-    facebook.setAttribute("src", "../assets/icons/logo-facebook.svg")
-    instagram.setAttribute("src", "../assets/icons/logo-instagram.svg")
-    linkedin.setAttribute("src", "../assets/icons/logo-linkedin.svg")
+    img.setAttribute("src", "./assets/images/avatar-lia.png")
+    github.setAttribute("src", "./assets/icons/logo-github.svg")
+    facebook.setAttribute("src", "./assets/icons/logo-facebook.svg")
+    instagram.setAttribute("src", "./assets/icons/logo-instagram.svg")
+    linkedin.setAttribute("src", "./assets/icons/logo-linkedin.svg")
   }
 }
