@@ -34,6 +34,11 @@ body {
   /*
   /*background color image repeat position/size */
   background: var(--bg-url);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body * {
@@ -43,10 +48,10 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 588px;
-  margin: 56px auto 0px;
+  max-width: 320px;
   padding: 0 24px;
 }
+
 /* Profile */
 #profile {
   text-align: center;
